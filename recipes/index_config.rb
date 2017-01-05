@@ -6,6 +6,6 @@ template "/var/www/html/index.html" do
     mode "0755"
     variables(
         'estaMuyPincheRebuscadaLaSintaxisDeLasVariables': node['platform'],
-        'topoto': node['role']
+        'topoto': node['roles']
     )
 end
